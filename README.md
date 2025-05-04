@@ -25,6 +25,22 @@ only the text files rendered more easily browsable with
 your preferred browser.
 
 
+## How to compile:
+If you are running a Linux machine you may use the binary
+available here, otherwise you can simply compile the code.
+It's Haskell code, so for that you can use 'ghc'
+(the Glasgow Haskell Compiler):
+
+$ ghc hwebify.hs
+
+Here is what happens:
+$ ghc hwebify.hs 
+[1 of 1] Compiling Main             ( hwebify.hs, hwebify.o )
+Linking hwebify ...
+$
+With this command you end up with an executable called: 'hwebify'
+
+
 ## Usage:
 1. cd "above" the directory ('theTargetDirName') you are interested
 to generate a browsable copy of.
