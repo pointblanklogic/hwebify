@@ -31,14 +31,18 @@ available here, otherwise you can simply compile the code.
 It's Haskell code, so for that you can use 'ghc'
 (the Glasgow Haskell Compiler):
 
+```
 $ ghc hwebify.hs
+```
 
-Here is what happens:
+Here is what that looks like:
+```
 $ ghc hwebify.hs 
 [1 of 1] Compiling Main             ( hwebify.hs, hwebify.o )
 Linking hwebify ...
 $
-With this command you end up with an executable called: 'hwebify'
+```
+With this command you obtain an executable called: 'hwebify'
 
 
 ## Usage:
